@@ -2,11 +2,11 @@
 
 # Expressive Motion
 
-**Learning Expressive Humanoid Locomotion from Monocular Runway Videos**
+**Learning Expressive Humanoid Locomotion from Monocular Runway Videos for Robot Fashion Shows**
 
-Kyrylo Kolesnichenko<sup>1,2</sup> · Irvin Steve Cardenas<sup>1</sup> · Jong-Hoon Kim<sup>1</sup>
+Kyrylo Kolesnichenko<sup>1,2</sup> · Irvin Steve Cardenas<sup>2</sup> · Jong-Hoon Kim<sup>2</sup>
 
-<sup>1</sup> Advanced Telerobotics Research Laboratory, Kent State University · <sup>2</sup> Vilnius University
+<sup>1</sup> Kaunas Faculty, Vilnius University · <sup>2</sup> Advanced Telerobotics Research Lab, Kent State University
 
 [**Paper**](paper/Expressive_Humanoid_Locomotion.pdf) ·
 [**Poster**](paper/expressive-motion_poster.pdf) ·
@@ -18,7 +18,7 @@ Kyrylo Kolesnichenko<sup>1,2</sup> · Irvin Steve Cardenas<sup>1</sup> · Jong-H
 ![Robot](https://img.shields.io/badge/robot-Booster%20K1-black)
 [![License](https://img.shields.io/badge/code-MIT-lightgrey)](LICENSE)
 
-<img src="paper/pipeline_strip.png" width="880" alt="Runway video, recovered 3D human motion, retargeted K1 in simulation, and the physical Booster K1">
+<img src="paper/figures/pipeline_strip.png" width="880" alt="Runway video, recovered 3D human motion, retargeted K1 in simulation, and the physical Booster K1">
 
 <sub>(A) monocular runway video → (B) recovered 3D human motion → (C) retargeted motion in simulation → (D) physical Booster K1</sub>
 
@@ -272,7 +272,7 @@ expressive-motion/
 │   ├── retarget_gvhmr.py       # single-clip retargeting
 │   └── expressive_motion/      # internal helpers
 ├── overlay/train/task_template # rendered into booster_train
-├── paper/                      # LaTeX source, figure, paper and poster PDFs
+├── paper/                      # arXiv LaTeX source, paper and poster PDFs
 ├── docs/                       # GitHub Pages video page (poster QR target)
 ├── external/                   # pinned upstream submodules
 │   ├── GVHMR/                  # monocular motion recovery
@@ -315,7 +315,8 @@ GMR ships robot assets under mixed licences; `fourier_n1` is LGPL-3.0 and `exter
 
 ```bibtex
 @misc{kolesnichenko2026expressive,
-  title  = {Learning Expressive Humanoid Locomotion from Monocular Runway Videos},
+  title  = {Learning Expressive Humanoid Locomotion from Monocular Runway Videos
+            for Robot Fashion Shows},
   author = {Kolesnichenko, Kyrylo and Cardenas, Irvin Steve and Kim, Jong-Hoon},
   year   = {2026},
   url    = {https://github.com/ATR-Lab/expressive-motion}
